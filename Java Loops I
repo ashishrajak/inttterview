@@ -1,0 +1,23 @@
+import java.util.*;
+
+
+class Solution {
+    public static void main(String[] args){
+
+        Scanner sc=new Scanner(System.in);
+        int i=sc.nextInt();
+        int c,u=1;
+        
+        for(int t=1;t<=10;t++){
+            c=i*t;
+            System.out.println(i+" x "+t+" = "+c);
+            
+        }
+    }
+
+
+    
+
+
+    
+}
